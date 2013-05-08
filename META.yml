@@ -1,0 +1,32 @@
+---
+abstract: 'Uninets::Check bundled with a set of modules.'
+author:
+  - 'Matthias Krull <m.krull@uninets.eu>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Bundle-Unicheck
+no_index:
+  directory:
+    - t
+provides:
+  Bundle::Unicheck:
+    file: lib/Bundle/Unicheck.pm
+    version: 0.01
+requires:
+  Uninets::Check: 0
+  Uninets::Check::Modules::HTTP: 0
+  Uninets::Check::Modules::MongoDB: 0
+  Uninets::Check::Modules::Redis: 0
+  perl: v5.10.1
+resources:
+  license: http://www.perlfoundation.org/artistic_license_2_0
+  repository: https://github.com/uninets/Bundle-Unicheck
+version: 0.01
