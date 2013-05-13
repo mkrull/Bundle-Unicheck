@@ -8,7 +8,9 @@ Version 0.01
 
 # SYNOPSIS
 
-Currently this bundle contains:
+`perl -MCPAN -e 'install Bundle::Unicheck'`
+
+# CONTENTS
 
 Uninets::Check
 Uninets::Check::Modules::HTTP

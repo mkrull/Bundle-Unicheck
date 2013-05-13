@@ -14,12 +14,14 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
 
-Currently this bundle contains:
+C<perl -MCPAN -e 'install Bundle::Unicheck'>
+
+=head1 CONTENTS
 
 Uninets::Check
 Uninets::Check::Modules::HTTP

@@ -19,7 +19,7 @@ no_index:
 provides:
   Bundle::Unicheck:
     file: lib/Bundle/Unicheck.pm
-    version: 0.01
+    version: 0.02
 requires:
   Uninets::Check: 0
   Uninets::Check::Modules::HTTP: 0
@@ -29,4 +29,4 @@ requires:
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
   repository: https://github.com/uninets/Bundle-Unicheck
-version: 0.01
+version: 0.02
