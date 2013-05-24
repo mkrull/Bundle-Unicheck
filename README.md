@@ -4,7 +4,7 @@ Bundle::Unicheck - App::Unicheck bundled with a set of modules.
 
 # VERSION
 
-Version 0.01
+Version 0.03
 
 # SYNOPSIS
 
@@ -13,8 +13,11 @@ Version 0.01
 # CONTENTS
 
 App::Unicheck
+
 App::Unicheck::Modules::HTTP
+
 App::Unicheck::Modules::Redis
+
 App::Unicheck::Modules::MongoDB
 
 # AUTHOR
