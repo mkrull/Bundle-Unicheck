@@ -4,7 +4,7 @@
       "Matthias Krull <m.krull@uninets.eu>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "artistic_2"
    ],
@@ -28,31 +28,22 @@
          "requires" : {
             "Module::Build" : "0"
          }
-      },
-      "runtime" : {
-         "requires" : {
-            "App::Unicheck" : "0",
-            "App::Unicheck::Modules::HTTP" : "0",
-            "App::Unicheck::Modules::MongoDB" : "0",
-            "App::Unicheck::Modules::Redis" : "0",
-            "perl" : "v5.10.1"
-         }
       }
    },
    "provides" : {
       "Bundle::Unicheck" : {
          "file" : "lib/Bundle/Unicheck.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://www.perlfoundation.org/artistic_license_2_0"
+         "http://opensource.org/licenses/artistic-license-2.0.php"
       ],
       "repository" : {
          "url" : "https://github.com/uninets/Bundle-Unicheck"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

@@ -5,7 +5,7 @@ use Module::Build;
 
 my $builder = Module::Build->new(
     module_name         => 'Bundle::Unicheck',
-    license             => 'Artistic_2_0',
+    license             => 'artistic_2',
     dist_author         => q{Matthias Krull <m.krull@uninets.eu>},
     dist_version_from   => 'lib/Bundle/Unicheck.pm',
 
@@ -16,11 +16,6 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'perl' => '5.10.1',
-        'App::Unicheck' => 0,
-        'App::Unicheck::Modules::HTTP' => 0,
-        'App::Unicheck::Modules::MongoDB' => 0,
-        'App::Unicheck::Modules::Redis' => 0,
     },
     add_to_cleanup     => [ 'Bundle-Unicheck-* Build _build MYMETA.*' ],
     create_makefile_pl => 'traditional',
