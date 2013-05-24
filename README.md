@@ -1,6 +1,6 @@
 # NAME
 
-Bundle::Unicheck - Uninets::Check bundled with a set of modules.
+Bundle::Unicheck - App::Unicheck bundled with a set of modules.
 
 # VERSION
 
@@ -12,10 +12,10 @@ Version 0.01
 
 # CONTENTS
 
-Uninets::Check
-Uninets::Check::Modules::HTTP
-Uninets::Check::Modules::Redis
-Uninets::Check::Modules::MongoDB
+App::Unicheck
+App::Unicheck::Modules::HTTP
+App::Unicheck::Modules::Redis
+App::Unicheck::Modules::MongoDB
 
 # AUTHOR
 

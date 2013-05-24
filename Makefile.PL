@@ -7,10 +7,10 @@ WriteMakefile
   'VERSION_FROM' => 'lib/Bundle/Unicheck.pm',
   'PREREQ_PM' => {
                    'Test::More' => 0,
-                   'Uninets::Check' => 0,
-                   'Uninets::Check::Modules::HTTP' => 0,
-                   'Uninets::Check::Modules::MongoDB' => 0,
-                   'Uninets::Check::Modules::Redis' => 0
+                   'App::Unicheck' => 0,
+                   'App::Unicheck::Modules::HTTP' => 0,
+                   'App::Unicheck::Modules::MongoDB' => 0,
+                   'App::Unicheck::Modules::Redis' => 0
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

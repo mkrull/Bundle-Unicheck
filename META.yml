@@ -1,5 +1,5 @@
 ---
-abstract: 'Uninets::Check bundled with a set of modules.'
+abstract: 'App::Unicheck bundled with a set of modules.'
 author:
   - 'Matthias Krull <m.krull@uninets.eu>'
 build_requires:
@@ -21,10 +21,10 @@ provides:
     file: lib/Bundle/Unicheck.pm
     version: 0.02
 requires:
-  Uninets::Check: 0
-  Uninets::Check::Modules::HTTP: 0
-  Uninets::Check::Modules::MongoDB: 0
-  Uninets::Check::Modules::Redis: 0
+  App::Unicheck: 0
+  App::Unicheck::Modules::HTTP: 0
+  App::Unicheck::Modules::MongoDB: 0
+  App::Unicheck::Modules::Redis: 0
   perl: v5.10.1
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
