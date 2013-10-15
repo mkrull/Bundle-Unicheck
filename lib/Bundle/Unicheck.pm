@@ -31,6 +31,8 @@ App::Unicheck::Modules::Redis
 
 App::Unicheck::Modules::MongoDB
 
+App::Unicheck::Modules::MySQL
+
 =head1 AUTHOR
 
 Matthias Krull, C<< <m.krull at uninets.eu> >>

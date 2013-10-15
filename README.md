@@ -20,6 +20,8 @@ App::Unicheck::Modules::Redis
 
 App::Unicheck::Modules::MongoDB
 
+App::Unicheck::Modules::MySQL
+
 # AUTHOR
 
 Matthias Krull, `<m.krull at uninets.eu>`
