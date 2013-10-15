@@ -2,13 +2,13 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'PL_FILES' => {},
-  'INSTALLDIRS' => 'site',
   'NAME' => 'Bundle::Unicheck',
-  'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/Bundle/Unicheck.pm',
   'PREREQ_PM' => {
                    'Test::More' => 0
-                 }
+                 },
+  'INSTALLDIRS' => 'site',
+  'EXE_FILES' => [],
+  'PL_FILES' => {}
 )
 ;
